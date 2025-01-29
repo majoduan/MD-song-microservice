@@ -14,9 +14,8 @@ Microservicio RESTful para gestión de canciones utilizando Node.js y SQL Server
 Este proyecto implementa un CRUD de canciones que permite realizar operaciones como crear, leer, actualizar y eliminar canciones almacenadas en una base de datos SQL Server. Se utiliza un enfoque basado en microservicios y se despliega en la nube con Azure Container Apps.
 
 ## 📂 Estructura del Proyecto
-```json
-[
-song-microservice-container 
+**song-microservice-container:**
+```json 
 │── src 
 │ ├── config 
 │ │ ├── database.js 
@@ -33,7 +32,6 @@ song-microservice-container
 │── package.json 
 │── package-lock.json 
 │── README.md
-]
 ```
 
 ## 🔗 Endpoints Disponibles
