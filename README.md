@@ -15,6 +15,7 @@ Este proyecto implementa un CRUD de canciones que permite realizar operaciones c
 
 ## 📂 Estructura del Proyecto
 ```json
+[
 song-microservice-container 
 │── src 
 │ ├── config 
@@ -32,6 +33,7 @@ song-microservice-container
 │── package.json 
 │── package-lock.json 
 │── README.md
+]
 ```
 
 ## 🔗 Endpoints Disponibles
