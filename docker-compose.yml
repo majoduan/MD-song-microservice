@@ -3,12 +3,11 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - "8080:8080"
     environment:
       - DB_USER=usr_polimusic_md
       - DB_PASSWORD=Politecnica1
-      - DB_NAME=BDD_PoliMusic_MD
-      - DB_SERVER=localhost
-    volumes:
-      - .:/usr/src/app
-      - usr/src/app/node_modules
+      - DB_NAME=BDD_PoliMusic_SongMD
+      - DB_SERVER=sql-polimusic-server-md.database.windows.net
+      - NODE_ENV=production
+    restart: always
